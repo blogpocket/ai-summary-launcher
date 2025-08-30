@@ -182,7 +182,7 @@ function aisl_render_buttons( $post_id = null ) {
         );
     }
     $html .= '</ul>';
-    $html .= '<p class="aisl-hint">' . esc_html__( 'Si no ves el prompt autocompletado (o aparece la página de acceso), el texto ya está copiado. Solo pégalo.', 'ai-summary-launcher' ) . '</p>';
+    $html .= '<p class="aisl-hint">' . esc_html__( 'Si no ves el prompt autocompletado o es el de una ejecución anterior (o aparece la página de acceso), el texto ya está copiado. Solo pégalo.', 'ai-summary-launcher' ) . '</p>';
     $html .= '<p class="aisl-hint"><a href="https://lanzatu.blog/manifiesto-ia" target="_blank" rel="noopener">En Blogpocket se promueve un uso ético y responsable de la IA</a></p>';
     $html .= '</div>';
 
