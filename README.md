@@ -1,7 +1,7 @@
 # AI Summary Launcher
 
 **Autor:** A. Cambronero (Blogpocket.com)  
-**Versión:** 1.0.0  
+**Versión:** 1.0.1  
 **Licencia:** GPL-2.0+
 
 Plugin de WordPress que muestra iconos de **Claude**, **ChatGPT**, **Google AI (Gemini)**, **Grok** y **Perplexity** para que tus visitantes puedan abrir su IA favorita y **resumir el artículo actual** con un único clic.  
@@ -125,6 +125,10 @@ No se exponen filtros específicos en esta versión 1.0.0, pero puedes envolver 
 Distribuido bajo **GPL-2.0 o posterior**.
 
 ---
+
+## Cambios 1.0.1
+- JS: se previene la navegación inmediata, se copia el prompt y tras ~80 ms se abre la URL del servicio (`window.open`). Mejora la fiabilidad de la copia en Gemini/otros.
+
 
 ## Changelog
 
