@@ -1,7 +1,7 @@
 # AI Summary Launcher
 
 **Autor:** A. Cambronero (Blogpocket.com)  
-**Versión:** 1.0.2 
+**Versión:** 1.0.3
 **Licencia:** GPL-2.0+
 
 Plugin de WordPress que muestra iconos de **Claude**, **ChatGPT**, **Google AI (Gemini)**, **Grok** y **Perplexity** para que tus visitantes puedan abrir su IA favorita y **resumir el artículo actual** con un único clic.  
@@ -139,4 +139,9 @@ Distribuido bajo **GPL-2.0 o posterior**.
 - **Exclusión de páginas** por defecto: el plugin se auto-inserta solo en *posts* y **CPTs públicos**.
 - **Nueva opción** en Ajustes para elegir en qué **tipos de contenido** se auto-inserta (puedes dejar todos desmarcados y usar solo el shortcode).
 - Mantiene la corrección de la copia al portapapeles antes de abrir la IA (1.0.1).
+
+## Novedades 1.0.3
+- **Ocultar en posts con la etiqueta “Microblog”** (insensible a mayúsculas/minúsculas). Se aplica tanto al **auto-insert** como al **shortcode**.
+- **ChatGPT sin prefill**: se abre `https://chatgpt.com/` y el prompt queda copiado al portapapeles para pegar manualmente (fiable).
+- **UX accesible**: región `aria-live` para confirmar la copia.
 
