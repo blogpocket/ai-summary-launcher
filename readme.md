@@ -109,7 +109,7 @@ No se exponen filtros específicos en esta versión 1.0.0, pero puedes envolver 
 
 ## Soporte
 
-- Crea un _issue_ en tu repositorio de GitHub si lo publicas allí.
+- Crea un _issue_ en el repositorio de GitHub.
 - Este plugin se distribuye **tal cual**, sin garantías. Úsalo bajo tu propio riesgo.
 
 ---
